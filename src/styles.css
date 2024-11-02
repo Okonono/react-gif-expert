@@ -16,15 +16,18 @@
     outline: none;
     padding: 10px 15px;
     width: 100%;
+    
   }
   
   h2 {
     font-size: 1.5rem;
+    color: rgb(97, 32, 158);
   }
   
   h3 {
     font-size: 3rem;
     margin-bottom: 5px;
+   
   }
   
   .card-grid {
