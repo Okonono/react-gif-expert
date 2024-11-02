@@ -15,7 +15,7 @@ export const GifExpertApp = () => {
 
     return (
         <>
-            <h2>GifApp  (◕‿◕) </h2>
+            <h1>GifApp</h1>
             <AddCategory 
                 onNewCategory={(value) => onAddCategory(value)} //cuando se da enter en el hijo llama a esta función con 
             />
