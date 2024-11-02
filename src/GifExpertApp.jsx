@@ -5,7 +5,7 @@ import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
     
-    const [categories, setCategories] = useState(['Dragon Ball z'])
+    const [categories, setCategories] = useState(['Hayao Miyazaki'])
     
     const onAddCategory = (newCategory ) => {
         if(categories.includes(newCategory)) return; //si la categoria ya existe en el hook retorna
